@@ -1,0 +1,14 @@
+.card {
+    background-color: rgba(129, 181, 250, 0.822);
+    align-items: center;
+    justify-content: center;
+    display: block;
+    max-width: 300px;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px #0000000d;
+    color: white;
+    font-size: calc(10px + 2vmin);
+    position: relative;
+}
