@@ -14,7 +14,8 @@ const PeopleCount = () =>{
         if(6<time.valueOf() && time.valueOf()<22){
           setOpen(true);
           setNow(new Date());
-        //PrevTime is calculated through decreasing the current time with 1 //hour and 2 minutes. Read below about why 2 minutes.
+        //PrevTime is calculated through decreasing the current time with 1 
+        //hour and 2 minutes. (2 mins is to safeguard so we dont miss any data)
           var timeBefore= new Date();
           timeBefore.setHours(timeBefore.getHours()-1);
           timeBefore.setMinutes(timeBefore.getMinutes()-2);
